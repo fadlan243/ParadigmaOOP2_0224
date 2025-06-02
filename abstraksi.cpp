@@ -8,4 +8,24 @@ private:
 public:
     // method untuk mengisi nilai
     // private member
-    
+    void setXY(string a, string b)
+    {
+        x = a;
+        y = b;
+    }
+    //menampilkan nilai
+    void display()
+    {
+        cout << " y = " << x << endl;
+        cout << " x = " << y << endl;
+    }
+};
+
+int main()
+{
+    AbstraksiKlas ak;
+    ak.setXY("Yogyakarta", "Kampus");
+    ak.display();
+
+    return 0;
+}
