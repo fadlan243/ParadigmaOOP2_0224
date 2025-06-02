@@ -13,4 +13,11 @@ public:
         x = a;
         y = b;
     }
-    
+    //menampilkan nilai
+    void display()
+    {
+        cout << " y = " << x << endl;
+        cout << " x = " << y << endl;
+    }
+};
+
