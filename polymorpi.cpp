@@ -9,3 +9,7 @@ public:
     {
         cout << "Pesan dari seseorang" << endl;
     }
+
+};
+
+class joko : public seseorang
